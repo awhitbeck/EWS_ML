@@ -7,8 +7,8 @@
 
 import pandas as pd
 import matplotlib.pyplot as plt
-dfsig=  pd.read_pickle('TChiWZ_1000_1_MC2018.pkl')
-dfbkg= pd.read_pickle('ZJetsToNuNu_HT_MC2018.pkl')
+dfsig=  pd.read_pickle('data/TChiWZ_1000_1_MC2018.pkl')
+dfbkg= pd.read_pickle('data/ZJetsToNuNu_HT_MC2018.pkl')
 
 df = pd.concat([dfsig,dfbkg])
 
